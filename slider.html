@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="styles/slider.css">
+    <script src="scripts/slider.js"></script>
+    
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact us</a></li>
+                <li class="menu-icon"><a href="javascript:void(0);" onclick="toggleMenu()">&#9776;</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="slider">
+        <div class="slides">
+            <img src="images/beach.jpeg" class="slide" alt="Image1">
+            <img src="images/road.jpeg" class="slide" alt="Image2">
+            <img src="images/sunrays.jpeg" class="slide" alt="Image3">
+        </div>
+        <button class="prev">Prev</button>
+        <button class="next">Next</button>
+    </div>
+    <footer>
+        <p>@ 2025 Evangelis. Last Modified: <span id="last-modified"></span></p>
+    </footer>
+</body>
+
+</html>
